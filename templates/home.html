@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Flask App || Home</title>
+</head>
+<body>
+    <h1>Hello, Welcome to my Science Blog page.</h1>
+
+    <!-- Start: Article Dual Column -->
+    <div class="article-dual-column" style="font-family: Montserrat, sans-serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <!-- Start: Intro -->
+                    <div class="intro">
+                        <h1 class="text-center">Using Machine Learning to Screen Echocardiograms for Rheumatic Heart Disease.</h1>
+                        <!-- Start: Date and Author -->
+                        <p class="text-center"><span class="by">by</span> <a href="#">Lorna Mugambi</a><span class="date">September 13th, 202I</span></p>
+                        <!-- End: Date and Author --><img class="img-fluid" src="static/rhd3.jpeg"></div>
+                </div>
+            </div>
+            <!-- End: Intro -->
+            <div class="row">
+                <div class="col-md-10 col-lg-7 offset-md-1 offset-lg-0" style="font-size: 9px;">
+                    <div class="text" style="font-size: 5px;">
+                        <p style="font-size: 16px;"><br>
+                            RHD is a condition that permanently affects heart valves resulting in heart failure, atrial fibrillation and 
+                            in some cases stroke. It starts as a throat infection caused by an organism called Group A Streptococcus and if 
+                            this throat infection is not properly treated, it develops into Rheumatic fever. 
+                            <br>
+                            The response of the body's immune system to the streptococcal bacteria results in inflammation of tissues in the heart, 
+                            which causes permanent damage to the heart valves in the long run. The most commonly affected heart valve is the 
+                            mitral valve, the valve between the two left chambers of the heart. Effects caused can be: narrowed valves, 
+                            leaking valves and damaged heart muscles. 
+                            <br>
+                            These are best visualised using Echocardiography, or ultrasounds of the heart. 
+                            RHD is preventable by treating sore throats timely but sadly, this is generally not the case in Africa due to socio-economic problems.
+                            <br>
+                            Today, artificial intelligence has a major impact on medical imaging with applications in areas such as lesion detection and image processing. 
+                            Early diagnosis of valve damage in children using machine learning and artificial intelligence in developing countries will help reduce 
+                            prevalence and mortality due to RHD.
+    
+                        Echocardiographic screening for early detection of RHD has been proposed as a method to ultimately improve outcomes, 
+                        but is time consuming especially in terms of review. Using machine learning, we can automate the screening process and be able 
+                        to tell if a patient has any heart damage that could lead to RHD. 
+                        <br>
+                        We will use echocardiography data provided by a Paedriatic Cardiologist and RHD expert at the University of Cape Town and an advisor on this project. 
+                        These data are in the form of images and videos of echocardiograms as echocardiography is the primary imaging modality 
+                        for diagnosing cardiac conditions. 
+                        <br>
+                        Since the left side of the heart is mostly affected, the best view to use to analyse these images is the parasternal long axis view of the heart. 
+                        Patient details will be cropped to maintain confidentiality. Frames will be extracted from the videos and resulting 
+                        images resized and changed to grayscale. These data will then be used to develop a view classifier that can tell the view of the 
+                        heart and a valve damage classifier that can tell whether a valve is damaged.
+                        <br>
+                        We will incorporate edge devices and portable echocardiography machines since there is a high diagnostic accuracy in using these 
+                        devices for screening in less developed areas with reduced costs and eliminating the long wait time in hospitals.
+                    </p>
+                    </div>
+</body>
+</html>
